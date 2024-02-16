@@ -5,7 +5,7 @@ import { LinkBreak, LinkSimpleHorizontal, Share } from "phosphor-react";
 export default function Home() {
     return (
         <main className="bg-gray-950 text-white flex min-h-screen flex-col items-center justify-center p-24 gap-5">
-            <h2 className="text-4xl font-semibold">
+            <h2 className="text-4xl font-semibold text-center">
                 Buy Smart Hub - Conte com a gente!
             </h2>
             <Link
