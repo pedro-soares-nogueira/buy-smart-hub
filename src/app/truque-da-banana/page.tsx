@@ -55,7 +55,7 @@ const TruqueBanana = () => {
 
     return (
         <div className="space-y-16">
-            <div className="bg-red-600 text-center px-4 py-4 text-white font-semibold text-lg">
+              <div className="bg-[#FF0000] text-center px-4 py-4 text-white font-semibold text-base md:text-lg">
                 Devido à grande procura, o vídeo ficará disponível até o dia:{" "}
                 {dataFormatada}
             </div>
@@ -93,7 +93,7 @@ const TruqueBanana = () => {
 
             <div>
                 <div className="bg-yellow-500 h-7"></div>
-                <div className="bg-green-950 text-white h-[17rem] flex items-center justify-center flex-col px-4">
+                <div className="bg-[#001501] text-white h-[17rem] flex items-center justify-center flex-col px-4">
                     <p className="text-xl md:text-2xl font-bold max-w-[54rem] text-center leading-7 md:leading-9">
                         Possui apenas 4 vagas para fazer a consulta com a
                         Andreia. Clique no botão abaixo para garantir a sua!
