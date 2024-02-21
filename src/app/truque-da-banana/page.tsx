@@ -130,9 +130,10 @@ const TruqueBanana = () => {
             </span>
             Veja o que as pessoas estão dizendo sobre o novo truque!
           </p>
-          <div className="bg-gray-400 w-full max-w-[60rem] h-[190px] md:h-[35rem] rounded flex items-center justify-center">
-            <Video src={vsl} />
-          </div>
+          <Video
+            src={vsl}
+            className="max-w-[60rem] w-full h-[220px] sm:h-[440px] md:h-[35rem]"
+          />
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 ">
             <Eye size={32} className="mr-3" />
             <p className="text-lg font-bold text-center">
@@ -154,7 +155,13 @@ const TruqueBanana = () => {
             <Link
               href={"https://kiwify.app/hSszoUy?afid=EOLlgPZB"}
               className="max-w-[28rem] bg-[#3B9109] block w-full rounded-full p-4 text-center font-bold animate-bounce mt-10"
-              style={{ boxShadow: "0px 5px #00FF52" }}
+              style={{
+                borderStyle: "solid",
+                borderWidth: "0px 5px 5px 5px",
+                borderColor: "#00FF52",
+                borderRadius: "133px 133px 133px 133px",
+                boxShadow: "0px 0px 10px 0px #2CFF00",
+              }}
             >
               FAZER CONSULTA GRATUITA
             </Link>
