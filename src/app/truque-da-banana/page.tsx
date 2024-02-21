@@ -4,17 +4,19 @@ import Link from "next/link";
 import { Eye, SpeakerSimpleHigh } from "phosphor-react";
 import React, { useEffect, useState } from "react";
 
-import avatar01 from "@/assets/avatar-01.png";
-import comment01 from "@/assets/coment-01.png";
-import avatar02 from "@/assets/avatar-2.png";
-import comment02 from "@/assets/comment-2.png";
-import avatar03 from "@/assets/avatar-03.jpeg";
-import avatar04 from "@/assets/avatar-04.jpg";
-import comment04 from "@/assets/comment-4.jpg";
+import avatar01 from "@/assets/testimonials/avatar-01.png";
+import comment01 from "@/assets/testimonials/coment-01.png";
+import avatar02 from "@/assets/testimonials/avatar-2.png";
+import comment02 from "@/assets/testimonials/comment-2.png";
+import avatar03 from "@/assets/testimonials/avatar-03.jpeg";
+import avatar04 from "@/assets/testimonials/avatar-04.jpg";
+import comment04 from "@/assets/testimonials/comment-4.jpg";
 
-import avatar05 from "@/assets/avatar05.jpg";
-import avatar06 from "@/assets/avatar06.jpg";
-import avatar07 from "@/assets/avatar07.jpg";
+import avatar05 from "@/assets/testimonials/avatar05.jpg";
+import avatar06 from "@/assets/testimonials/avatar06.jpg";
+import avatar07 from "@/assets/testimonials/avatar07.jpg";
+
+import logo from "@/assets/logo-icons/icon-banana.png";
 
 import security from "@/assets/security.png";
 import Script from "next/script";
@@ -94,7 +96,7 @@ const TruqueBanana = () => {
           title={"og:description"}
           content="Truque completo"
         />
-        {/* <link rel="icon" href="/logo-hamburguer.svg" /> */}
+        <link rel="icon" href="/icon-banana.png" />
 
         <noscript>
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -141,18 +143,20 @@ const TruqueBanana = () => {
         </div>
 
         <div>
-          <div className="bg-yellow-500 h-7"></div>
+          <div className="bg-[#FFEE1B] h-7"></div>
           <div className="bg-[#001501] text-white h-[17rem] flex items-center justify-center flex-col px-4">
             <p className="text-xl md:text-2xl font-bold max-w-[54rem] text-center leading-7 md:leading-9">
-              Possui apenas 4 vagas para fazer a consulta com a Andreia. Clique
-              no botão abaixo para garantir a sua!
+              Possui apenas <span className="text-[#FFEE1B]">4 vagas</span> para
+              fazer a consulta com a Andreia. Clique no botão abaixo para
+              garantir a sua!
             </p>
 
             <Link
-              href={"#"}
-              className="max-w-[28rem] bg-green-500 block w-full rounded-full p-4 text-center font-bold animate-bounce mt-10  "
+              href={"https://kiwify.app/hSszoUy?afid=EOLlgPZB"}
+              className="max-w-[28rem] bg-[#3B9109] block w-full rounded-full p-4 text-center font-bold animate-bounce mt-10"
+              style={{ boxShadow: "0px 5px #00FF52" }}
             >
-              EU QUERO
+              FAZER CONSULTA GRATUITA
             </Link>
           </div>
         </div>
