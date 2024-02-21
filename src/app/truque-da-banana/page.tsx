@@ -62,6 +62,18 @@ const TruqueBanana = () => {
 
   return (
     <>
+      {/* 
+          
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXLZB36HQ6"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WXLZB36HQ6');
+        </script>
+          
+          */}
       <>
         <Script
           id="fbp"
@@ -81,6 +93,20 @@ const TruqueBanana = () => {
           `,
           }}
         ></Script>
+
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'G-WXLZB36HQ6');
+        `,
+          }}
+        />
       </>
 
       <Head>
@@ -96,7 +122,7 @@ const TruqueBanana = () => {
           title={"og:description"}
           content="Truque completo"
         />
-        <link rel="icon" href="/icon-banana.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
 
         <noscript>
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -106,6 +132,13 @@ const TruqueBanana = () => {
             alt=""
             style={{ display: "none" }}
             src={`https://www.facebook.com/tr?id=1884200962033418&ev=PageView&noscript=1`}
+          />
+
+          <iframe
+            src={`https://www.googletagmanager.com/gtag/js?id=G-WXLZB36HQ6`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
       </Head>
