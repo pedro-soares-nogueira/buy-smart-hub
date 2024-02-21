@@ -20,6 +20,9 @@ import security from "@/assets/security.png";
 import Script from "next/script";
 import Head from "next/head";
 
+import Video from "next-video";
+import vsl from "/videos/vsl-truque-da-banana.mp4";
+
 const meses = [
   "Janeiro",
   "Fevereiro",
@@ -126,7 +129,7 @@ const TruqueBanana = () => {
             Veja o que as pessoas estão dizendo sobre o novo truque!
           </p>
           <div className="bg-gray-400 w-full max-w-[60rem] h-[190px] md:h-[35rem] rounded flex items-center justify-center">
-            Vídeo
+            <Video src={vsl} />
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 ">
             <Eye size={32} className="mr-3" />
