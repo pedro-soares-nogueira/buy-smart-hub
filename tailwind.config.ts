@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
+      colors: {
+        brow900: "#2D0402",
+        brow500: "#8D3A1D",
+        brow200: "#C3803A",
+        green500: "#0D6419",
+        yellow200: "#FAC757",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-pascoa-ouro": "url('/src/assets/bg-ovo-de-pascoa.webp')",
       },
     },
   },
