@@ -20,6 +20,12 @@ import depo06 from "@/assets/pascoa-de-ouro/depoimento-06.webp";
 import depo07 from "@/assets/pascoa-de-ouro/depoimento-07.webp";
 import depo08 from "@/assets/pascoa-de-ouro/depoimento-08.webp";
 
+import woman01 from "@/assets/pascoa-de-ouro/woman-01.webp";
+import woman02 from "@/assets/pascoa-de-ouro/woman-02.webp";
+import woman03 from "@/assets/pascoa-de-ouro/woman-03.webp";
+
+import suport from "@/assets/pascoa-de-ouro/suport.webp";
+
 const PascoaDeOuro = () => {
   return (
     <div className="font-roboto">
@@ -68,7 +74,7 @@ const PascoaDeOuro = () => {
       </div>
 
       <div className="bg-yellow200 text-center pt-[3rem] md:pt-10 pb-10 flex items-center justify-center flex-col px-4">
-        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full ">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full">
           Mais do que Apenas um Curso de Ovos de Páscoa
         </p>
 
@@ -107,6 +113,7 @@ const PascoaDeOuro = () => {
           />
         </div>
       </div>
+
       <div className="bg-brow900">
         <svg
           className="abtolute bottom-0"
@@ -222,32 +229,32 @@ const PascoaDeOuro = () => {
           <path
             d="M 0,600 L 0,150 C 112.00956937799043,135.55023923444975 224.01913875598086,121.10047846889952 313,139 C 401.98086124401914,156.89952153110048 467.93301435406704,207.1483253588517 560,224 C 652.066985645933,240.8516746411483 770.2488038277513,224.30622009569376 880,191 C 989.7511961722487,157.69377990430624 1091.071770334928,107.62679425837321 1183,98 C 1274.928229665072,88.37320574162679 1357.4641148325359,119.1866028708134 1440,150 L 1440,600 L 0,600 Z"
             stroke="none"
-            stroke-width="0"
+            strokeWidth="0"
             fill="#8d3a1d"
-            fill-opacity="0.53"
+            fillOpacity="0.53"
             className="transition-all duration-300 ease-in-out delay-150 path-0"
             transform="rotate(-180 720 300)"
           ></path>
           <path
             d="M 0,600 L 0,350 C 109.01435406698565,334.2105263157895 218.0287081339713,318.4210526315789 318,308 C 417.9712918660287,297.5789473684211 508.8995215311004,292.52631578947376 599,290 C 689.1004784688996,287.47368421052624 778.373205741627,287.4736842105263 868,293 C 957.626794258373,298.5263157894737 1047.6076555023922,309.57894736842104 1143,320 C 1238.3923444976078,330.42105263157896 1339.196172248804,340.2105263157895 1440,350 L 1440,600 L 0,600 Z"
             stroke="none"
-            stroke-width="0"
+            strokeWidth="0"
             fill="#8d3a1d"
-            fill-opacity="1"
+            fillOpacity="1"
             className="transition-all duration-300 ease-in-out delay-150 path-1"
             transform="rotate(-180 720 300)"
           ></path>
         </svg>
       </div>
 
-      <div className="bg-yellow200 text-center pt-[1rem] md:pt-10 pb-10 flex items-center justify-center flex-col px-4">
+      <div className="bg-yellow200 text-center pt-[1rem] md:pt-10 pb-4 flex items-center justify-center flex-col px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-extrabold leading-[35px] max-w-[720px] w-full ">
-          Mais do que Apenas um Curso de Ovos de Páscoa
+          Veja os Resultados Reais de Quem Já Transformou a Páscoa em Ouro!
         </p>
 
         <hr className="w-2/3 md:w-1/5 m-auto border border-brow900 mt-8 border-opacity-60" />
 
-        <div className="grid md:grid-cols-4 grid-cols-1 gap-4 my-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-4 my-6">
           <Image
             alt=""
             src={depo01}
@@ -279,7 +286,7 @@ const PascoaDeOuro = () => {
 
         <hr className="w-2/3 md:w-1/5 m-auto border border-brow900 mt-8 border-opacity-60" />
 
-        <div className="grid md:grid-cols-4 grid-cols-1 gap-4 my-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1  gap-4 my-6">
           <Image
             alt=""
             src={depo05}
@@ -300,6 +307,111 @@ const PascoaDeOuro = () => {
             src={depo08}
             className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
           />
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px] mt-4"
+        >
+          Toque aqui e seja minha aluna também!
+        </Link>
+      </div>
+
+      <div className="bg-brow900">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#FAC757"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-10 px-4 md:pb-10">
+        <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
+          Por que aprender a produzir e vender ovos de páscoa?
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[20px]">
+          <div>
+            <Image
+              alt=""
+              src={woman01}
+              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+              A Páscoa Acontece Todo Ano
+            </span>
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              Assim como as festas de fim de ano, a Páscoa é uma data
+              comemorativa que ocorre anualmente. Isso significa uma
+              oportunidade de negócio recorrente e previsível todos os anos. Ao
+              aprender a fazer e vender ovos de Páscoa artesanais, você está
+              investindo em um negócio com demanda garantida a cada ano.
+            </p>
+          </div>
+          <div>
+            <Image
+              alt=""
+              src={woman02}
+              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+              Ovos de Páscoa: Uma Tradição inquebrável.
+            </span>
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              Ovos de Páscoa são uma tradição querida e esperada por muitos. Não
+              é uma moda passageira, mas um hábito enraizado em nossa cultura.
+              Ao se especializar na produção de ovos de Páscoa, você se insere
+              em um mercado tradicional e estável, com clientes que retornam ano
+              após ano.
+            </p>
+          </div>
+          <div>
+            <Image
+              alt=""
+              src={woman03}
+              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+              O artesanal é cada vez mais valorizado
+            </span>
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              Produtos artesanais, especialmente os comestíveis, têm uma
+              percepção de maior valor e qualidade em comparação com os
+              industrializados. Ao oferecer ovos de Páscoa artesanais, você não
+              apenas atende a uma demanda, mas também pode cobrar um preço
+              premium por produtos de qualidade superior.
+            </p>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Eu quero aprender a produzir e vender ovos de páscoa!
+        </Link>
+      </div>
+
+      <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          Sua Jornada Será Acompanhada por 6 Meses
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <p className="text-brow900 text-[18px] md:text-[20px] font-semibold leading-[30px] max-w-[920px] w-full block mt-10 font-roboto m-auto">
+            Sabemos que dúvidas e desafios podem surgir no caminho para o
+            sucesso. Por isso, no curso “Páscoa de Ouro”, você não está sozinha.
+            Oferecemos suporte exclusivo por 6 meses para garantir que todas as
+            suas questões sejam respondidas e que você tenha a orientação
+            necessária para prosperar. Acompanhamento Personalizado: Durante
+            seis meses, nossa equipe estará à disposição para ajudar você a
+            superar qualquer obstáculo. Seja uma dúvida sobre receitas, técnicas
+            de decoração, estratégias de marketing ou gestão do seu negócio,
+            estamos aqui para ajudar.
+          </p>
+
+          <Image alt="" src={suport} />
         </div>
       </div>
     </div>
