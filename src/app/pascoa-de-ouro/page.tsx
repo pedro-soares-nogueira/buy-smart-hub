@@ -6,11 +6,25 @@ import logo from "@/assets/pages-logos/icon-pascoa-ouro.png";
 import ovosDesk01 from "@/assets/pascoa-de-ouro/ovos-desk-01.webp";
 import ovosMob01 from "@/assets/pascoa-de-ouro/ovos-mob-01.webp";
 
+import image1 from "@/assets/pascoa-de-ouro/vendas.webp";
+import image2 from "@/assets/pascoa-de-ouro/marketing.webp";
+import image3 from "@/assets/pascoa-de-ouro/gestao.webp";
+import image4 from "@/assets/pascoa-de-ouro/fotografia.webp";
+
+import depo01 from "@/assets/pascoa-de-ouro/depoimento-01.webp";
+import depo02 from "@/assets/pascoa-de-ouro/depoimento-02.webp";
+import depo03 from "@/assets/pascoa-de-ouro/depoimento-03.webp";
+import depo04 from "@/assets/pascoa-de-ouro/depoimento-04.webp";
+import depo05 from "@/assets/pascoa-de-ouro/depoimento-05.webp";
+import depo06 from "@/assets/pascoa-de-ouro/depoimento-06.webp";
+import depo07 from "@/assets/pascoa-de-ouro/depoimento-07.webp";
+import depo08 from "@/assets/pascoa-de-ouro/depoimento-08.webp";
+
 const PascoaDeOuro = () => {
   return (
     <div className="font-roboto">
       <div className="relative">
-        <div className="bg-brow900 text-center gap-8 text-white flex items-center justify-center flex-col px-4 py-10">
+        <div className="bg-gradient-to-t from-brow500 to-brow900 text-center gap-8 text-white flex items-center justify-center flex-col px-4 py-10">
           <Image
             alt=""
             src={logo}
@@ -53,7 +67,7 @@ const PascoaDeOuro = () => {
         </div>
       </div>
 
-      <div className="bg-yellow200 text-center pt-[3rem] md:pt-10 pb-16 flex items-center justify-center flex-col px-4">
+      <div className="bg-yellow200 text-center pt-[3rem] md:pt-10 pb-10 flex items-center justify-center flex-col px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full ">
           Mais do que Apenas um Curso de Ovos de Páscoa
         </p>
@@ -64,12 +78,12 @@ const PascoaDeOuro = () => {
           <Image
             alt=""
             src={ovosDesk01}
-            className="hidden md:block mt-8 rounded-xl shadow-xl"
+            className="hidden md:block mt-8 rounded-xl"
           />
           <Image
             alt=""
             src={ovosMob01}
-            className="block md:hidden mt-4 rounded-xl shadow-xl"
+            className="block md:hidden mt-4 rounded-xl"
           />
         </div>
 
@@ -84,12 +98,12 @@ const PascoaDeOuro = () => {
           <Image
             alt=""
             src={ovosDesk01}
-            className="hidden md:block mt-8 rounded-xl shadow-xl"
+            className="hidden md:block mt-8 rounded-xl"
           />
           <Image
             alt=""
             src={ovosMob01}
-            className="block md:hidden mt-4 rounded-xl shadow-xl"
+            className="block md:hidden mt-4 rounded-xl"
           />
         </div>
       </div>
@@ -127,11 +141,166 @@ const PascoaDeOuro = () => {
         </svg>
       </div>
 
-      <div className="bg-brow900 flex items-center justify-center flex-col gap-10 text-center py-10 px-4">
-        <p className="text-yellow200 text-[25px] md:text-[30px] font-extrabold leading-[40px] max-w-[920px] w-full ">
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 md:pb-10">
+        <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
           Você não só aprenderá a arte de fazer ovos de Páscoa deliciosos e
           criativos, mas também:
         </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-[20px]">
+          <div>
+            <Image
+              alt=""
+              src={image1}
+              className="md:max-w-[130px] max-w-[345px] max-h-[345px] md:max-h-[130px] w-full h-full m-auto"
+            />
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              <span className="text-yellow200">Vendas Simplificadas:</span>{" "}
+              Embora não seja um curso de vendas, você vai descobrir como vender
+              seus ovos de Páscoa de maneira eficiente, aumentando seu retorno
+              sobre o investimento com estratégias simples e eficazes.
+            </p>
+          </div>
+          <div>
+            <Image
+              alt=""
+              src={image2}
+              className="md:max-w-[130px] max-w-[345px] max-h-[345px] md:max-h-[130px] w-full h-full m-auto"
+            />
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              <span className="text-yellow200">Marketing de Encantamento:</span>{" "}
+              Não é um curso de marketing, mas você aprenderá a promover seus
+              produtos de uma maneira que cria uma conexão genuína com seus
+              clientes, garantindo que eles voltem por mais.
+            </p>
+          </div>
+          <div>
+            <Image
+              alt=""
+              src={image3}
+              className="md:max-w-[130px] max-w-[345px] max-h-[345px] md:max-h-[130px] w-full h-full m-auto"
+            />
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              <span className="text-yellow200"> Gestão Descomplicada:</span>{" "}
+              Este curso não é focado em gestão de negócios, mas você vai
+              adquirir habilidades essenciais para gerenciar seu negócio de ovos
+              de Páscoa de forma eficiente e sem complicações.
+            </p>
+          </div>
+          <div>
+            <Image
+              alt=""
+              src={image4}
+              className="md:max-w-[130px] max-w-[345px] max-h-[345px] md:max-h-[130px] w-full h-full m-auto"
+            />
+            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+              <span className="text-yellow200">Fotografia e Apresentação:</span>{" "}
+              Não é um curso de fotografia, mas ensinamos como tirar fotos
+              incríveis dos seus produtos, tornando-os irresistíveis nas redes
+              sociais e impulsionando suas vendas.
+            </p>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Eu quero aprender tudo isso!
+        </Link>
+      </div>
+
+      <div className="bg-yellow200">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 590"
+          xmlns="http://www.w3.org/2000/svg"
+          className="transition duration-300 ease-in-out delay-150 block md:hidden"
+        >
+          <path
+            d="M 0,600 L 0,150 C 112.00956937799043,135.55023923444975 224.01913875598086,121.10047846889952 313,139 C 401.98086124401914,156.89952153110048 467.93301435406704,207.1483253588517 560,224 C 652.066985645933,240.8516746411483 770.2488038277513,224.30622009569376 880,191 C 989.7511961722487,157.69377990430624 1091.071770334928,107.62679425837321 1183,98 C 1274.928229665072,88.37320574162679 1357.4641148325359,119.1866028708134 1440,150 L 1440,600 L 0,600 Z"
+            stroke="none"
+            stroke-width="0"
+            fill="#8d3a1d"
+            fill-opacity="0.53"
+            className="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 300)"
+          ></path>
+          <path
+            d="M 0,600 L 0,350 C 109.01435406698565,334.2105263157895 218.0287081339713,318.4210526315789 318,308 C 417.9712918660287,297.5789473684211 508.8995215311004,292.52631578947376 599,290 C 689.1004784688996,287.47368421052624 778.373205741627,287.4736842105263 868,293 C 957.626794258373,298.5263157894737 1047.6076555023922,309.57894736842104 1143,320 C 1238.3923444976078,330.42105263157896 1339.196172248804,340.2105263157895 1440,350 L 1440,600 L 0,600 Z"
+            stroke="none"
+            stroke-width="0"
+            fill="#8d3a1d"
+            fill-opacity="1"
+            className="transition-all duration-300 ease-in-out delay-150 path-1"
+            transform="rotate(-180 720 300)"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="bg-yellow200 text-center pt-[1rem] md:pt-10 pb-10 flex items-center justify-center flex-col px-4">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-extrabold leading-[35px] max-w-[720px] w-full ">
+          Mais do que Apenas um Curso de Ovos de Páscoa
+        </p>
+
+        <hr className="w-2/3 md:w-1/5 m-auto border border-brow900 mt-8 border-opacity-60" />
+
+        <div className="grid md:grid-cols-4 grid-cols-1 gap-4 my-6">
+          <Image
+            alt=""
+            src={depo01}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+          />
+          <Image
+            alt=""
+            src={depo02}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+          />
+          <Image
+            alt=""
+            src={depo03}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+          />
+          <Image
+            alt=""
+            src={depo04}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+          />
+        </div>
+
+        <p className="text-brow900 font-poppins text-[18px] md:text-[20px] font-semibold leading-[30px]">
+          A verdadeira prova do sucesso do curso “Páscoa de Ouro” está nas
+          histórias de sucesso das minhas alunas. Elas começaram exatamente onde
+          você está agora e transformaram suas vidas com o poder dos ovos de
+          Páscoa artesanais.
+        </p>
+
+        <hr className="w-2/3 md:w-1/5 m-auto border border-brow900 mt-8 border-opacity-60" />
+
+        <div className="grid md:grid-cols-4 grid-cols-1 gap-4 my-6">
+          <Image
+            alt=""
+            src={depo05}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+          />
+          <Image
+            alt=""
+            src={depo06}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+          />
+          <Image
+            alt=""
+            src={depo07}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+          />
+          <Image
+            alt=""
+            src={depo08}
+            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+          />
+        </div>
       </div>
     </div>
   );
