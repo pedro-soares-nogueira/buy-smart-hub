@@ -24,6 +24,17 @@ import woman01 from "@/assets/pascoa-de-ouro/woman-01.webp";
 import woman02 from "@/assets/pascoa-de-ouro/woman-02.webp";
 import woman03 from "@/assets/pascoa-de-ouro/woman-03.webp";
 
+import bonus01 from "@/assets/pascoa-de-ouro/bonus-01.webp";
+import bonus02 from "@/assets/pascoa-de-ouro/bonus-02.webp";
+import bonus03 from "@/assets/pascoa-de-ouro/bonus-03.webp";
+import bonus04 from "@/assets/pascoa-de-ouro/bonus-04.webp";
+import bonus05 from "@/assets/pascoa-de-ouro/bonus-05.webp";
+import bonus06 from "@/assets/pascoa-de-ouro/bonus-06.webp";
+import bonus07 from "@/assets/pascoa-de-ouro/bonus-07.webp";
+import bonus08 from "@/assets/pascoa-de-ouro/bonus-08.webp";
+import bonus09 from "@/assets/pascoa-de-ouro/bonus-09.webp";
+import bonus10 from "@/assets/pascoa-de-ouro/bonus-10.webp";
+
 import suport from "@/assets/pascoa-de-ouro/suport.webp";
 
 const PascoaDeOuro = () => {
@@ -337,52 +348,58 @@ const PascoaDeOuro = () => {
             <Image
               alt=""
               src={woman01}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              A Páscoa Acontece Todo Ano
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Assim como as festas de fim de ano, a Páscoa é uma data
-              comemorativa que ocorre anualmente. Isso significa uma
-              oportunidade de negócio recorrente e previsível todos os anos. Ao
-              aprender a fazer e vender ovos de Páscoa artesanais, você está
-              investindo em um negócio com demanda garantida a cada ano.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                A Páscoa Acontece Todo Ano
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Assim como as festas de fim de ano, a Páscoa é uma data
+                comemorativa que ocorre anualmente. Isso significa uma
+                oportunidade de negócio recorrente e previsível todos os anos.
+                Ao aprender a fazer e vender ovos de Páscoa artesanais, você
+                está investindo em um negócio com demanda garantida a cada ano.
+              </p>
+            </div>
           </div>
           <div>
             <Image
               alt=""
               src={woman02}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              Ovos de Páscoa: Uma Tradição inquebrável.
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Ovos de Páscoa são uma tradição querida e esperada por muitos. Não
-              é uma moda passageira, mas um hábito enraizado em nossa cultura.
-              Ao se especializar na produção de ovos de Páscoa, você se insere
-              em um mercado tradicional e estável, com clientes que retornam ano
-              após ano.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Ovos de Páscoa: Uma Tradição inquebrável.
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Ovos de Páscoa são uma tradição querida e esperada por muitos.
+                Não é uma moda passageira, mas um hábito enraizado em nossa
+                cultura. Ao se especializar na produção de ovos de Páscoa, você
+                se insere em um mercado tradicional e estável, com clientes que
+                retornam ano após ano.
+              </p>
+            </div>
           </div>
           <div>
             <Image
               alt=""
               src={woman03}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              O artesanal é cada vez mais valorizado
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Produtos artesanais, especialmente os comestíveis, têm uma
-              percepção de maior valor e qualidade em comparação com os
-              industrializados. Ao oferecer ovos de Páscoa artesanais, você não
-              apenas atende a uma demanda, mas também pode cobrar um preço
-              premium por produtos de qualidade superior.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                O artesanal é cada vez mais valorizado
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Produtos artesanais, especialmente os comestíveis, têm uma
+                percepção de maior valor e qualidade em comparação com os
+                industrializados. Ao oferecer ovos de Páscoa artesanais, você
+                não apenas atende a uma demanda, mas também pode cobrar um preço
+                premium por produtos de qualidade superior.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -394,25 +411,243 @@ const PascoaDeOuro = () => {
         </Link>
       </div>
 
-      <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4">
+      <div className="bg-yellow200 flex items-center justify-center flex-col text-center pt-8 px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
           Sua Jornada Será Acompanhada por 6 Meses
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <p className="text-brow900 text-[18px] md:text-[20px] font-semibold leading-[30px] max-w-[920px] w-full block mt-10 font-roboto m-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center justify-center">
+          <p className="text-brow900 text-[16px] md:text-[16px] font-semibold leading-[30px] max-w-[500px] w-full block mt-10 font-roboto m-auto ">
             Sabemos que dúvidas e desafios podem surgir no caminho para o
             sucesso. Por isso, no curso “Páscoa de Ouro”, você não está sozinha.
             Oferecemos suporte exclusivo por 6 meses para garantir que todas as
             suas questões sejam respondidas e que você tenha a orientação
-            necessária para prosperar. Acompanhamento Personalizado: Durante
-            seis meses, nossa equipe estará à disposição para ajudar você a
-            superar qualquer obstáculo. Seja uma dúvida sobre receitas, técnicas
-            de decoração, estratégias de marketing ou gestão do seu negócio,
-            estamos aqui para ajudar.
+            necessária para prosperar.
+            <br />
+            <br />
+            Acompanhamento Personalizado: Durante seis meses, nossa equipe
+            estará à disposição para ajudar você a superar qualquer obstáculo.
+            Seja uma dúvida sobre receitas, técnicas de decoração, estratégias
+            de marketing ou gestão do seu negócio, estamos aqui para ajudar.
           </p>
 
-          <Image alt="" src={suport} />
+          <Image alt="" src={suport} className="max-w-[400px] w-full m-auto" />
         </div>
+      </div>
+
+      <div className="bg-brow900">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 590"
+          xmlns="http://www.w3.org/2000/svg"
+          className="transition duration-300 ease-in-out delay-150 block md:hidden"
+        >
+          <path
+            d="M 0,600 L 0,150 C 112.00956937799043,135.55023923444975 224.01913875598086,121.10047846889952 313,139 C 401.98086124401914,156.89952153110048 467.93301435406704,207.1483253588517 560,224 C 652.066985645933,240.8516746411483 770.2488038277513,224.30622009569376 880,191 C 989.7511961722487,157.69377990430624 1091.071770334928,107.62679425837321 1183,98 C 1274.928229665072,88.37320574162679 1357.4641148325359,119.1866028708134 1440,150 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#FAC757"
+            fillOpacity="0.53"
+            className="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 300)"
+          ></path>
+          <path
+            d="M 0,600 L 0,350 C 109.01435406698565,334.2105263157895 218.0287081339713,318.4210526315789 318,308 C 417.9712918660287,297.5789473684211 508.8995215311004,292.52631578947376 599,290 C 689.1004784688996,287.47368421052624 778.373205741627,287.4736842105263 868,293 C 957.626794258373,298.5263157894737 1047.6076555023922,309.57894736842104 1143,320 C 1238.3923444976078,330.42105263157896 1339.196172248804,340.2105263157895 1440,350 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#FAC757"
+            fillOpacity="1"
+            className="transition-all duration-300 ease-in-out delay-150 path-1"
+            transform="rotate(-180 720 300)"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-10 px-4 md:pb-10">
+        <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
+          Transforme a Páscoa em uma Experiência Inesquecível com Estes Bônus
+          Exclusivos!
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[40px] items-start justify-start">
+          <div>
+            <Image
+              alt=""
+              src={bonus01}
+              className="max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 1: Workshop "A melhor páscoa da sua vida" Gravado
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Tenha acesso às gravações completas do nosso workshop, e reviva
+                as aulas sempre que precisar.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus02}
+              className="max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 2: Barra de Chocolate Recheada
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Aprenda a fazer barras de chocolate recheadas que são
+                verdadeiras obras de arte e deliciosas!
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus03}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 3: Colomba Pascal Tradicional
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Descubra os segredos para criar a Colomba Pascal perfeita, um
+                clássico que nunca sai de moda.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus04}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 4: Coelho de Chocolate Recheado
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Encante seus clientes com coelhos de chocolate recheados, um
+                item que garante sorrisos e vendas.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus05}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 5: Corações de Chocolate Lapidados Cintilantes
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Surpreenda com corações de chocolate que brilham não só no
+                sabor, mas também na aparência.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus06}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 6: Esferas de Chocolate com Brilho
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Domine a arte de fazer esferas de chocolate que capturam olhares
+                e paladares com seu brilho único.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus07}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 7: Escultura de Chocolate
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Eleve seu nível com técnicas de escultura em chocolate,
+                adicionando um toque de sofisticação aos seus produtos.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus08}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 8: Bolo Caseirinho Especial de Páscoa
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Delicie-se com a receita exclusiva do Bolo Caseirinho, perfeito
+                para a época de Páscoa.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus09}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 09: Tags Personalizadas
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Receba designs exclusivos de tags para personalizar seus
+                produtos e torná-los ainda mais especiais.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={bonus10}
+              className=" max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[18rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Bônus 10: Planilha de Precificação
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Gerencie seu negócio com mais eficiência com uma planilha
+                desenvolvida para ajudar na precificação dos seus produtos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Toque aqui para se inscrever e garantir todos os bônus
+        </Link>
       </div>
     </div>
   );
