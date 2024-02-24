@@ -35,6 +35,12 @@ import bonus08 from "@/assets/pascoa-de-ouro/bonus-08.webp";
 import bonus09 from "@/assets/pascoa-de-ouro/bonus-09.webp";
 import bonus10 from "@/assets/pascoa-de-ouro/bonus-10.webp";
 
+import owner01 from "@/assets/pascoa-de-ouro/owner-01.webp";
+
+import whois01 from "@/assets/pascoa-de-ouro/whois-01.webp";
+import whois02 from "@/assets/pascoa-de-ouro/whois-02.webp";
+import whois03 from "@/assets/pascoa-de-ouro/whois-03.webp";
+
 import suport from "@/assets/pascoa-de-ouro/suport.webp";
 
 const PascoaDeOuro = () => {
@@ -647,6 +653,131 @@ const PascoaDeOuro = () => {
           className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
         >
           Toque aqui para se inscrever e garantir todos os bônus
+        </Link>
+      </div>
+
+      <div className="bg-yellow200 block md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#8D3A1D"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="bg-yellow200 flex items-center justify-center flex-col text-center pt-8 md:pb-16 px-4">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          Conheça Marrara Bortoloti: Da Confeitaria Caseira à Referência
+          Nacional
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center justify-center">
+          <Image
+            alt=""
+            src={owner01}
+            className="max-w-[400px] w-full m-auto mt-10 "
+          />
+
+          <p className="text-brow900 text-[16px] md:text-[16px] font-semibold leading-[30px] max-w-[500px] w-full block font-roboto m-auto ">
+            Marrara iniciou sua carreira na confeitaria em uma cozinha caseira,
+            enfrentando os desafios com determinação e criatividade. Sua paixão
+            e habilidade a levaram a conquistar um lugar de destaque no mercado,
+            especialmente durante as temporadas de Páscoa.
+            <br />
+            <br />
+            Ao longo dos anos, ela não só criou ovos de Páscoa artesanais que se
+            tornaram um sucesso de vendas, mas também compartilhou seu
+            conhecimento, ajudando a transformar a vida de outras pessoas. Seus
+            cursos online já impactaram mais de 400 mil alunas ao redor do
+            mundo.
+            <br />
+            <br />
+            Hoje, Marrara é mais do que uma confeiteira; ela é uma educadora e
+            empreendedora de renome. Seu nome se tornou sinônimo de qualidade,
+            inovação e sucesso no mundo da confeitaria.
+          </p>
+        </div>
+      </div>
+
+      <div className="bg-brow900 flex items-center justify-center flex-col text-center pt-8 pb-10 px-4">
+        <p className="text-yellow200 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          Para quem é o método páscoa de ouro?
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[40px] items-start justify-start mt-16">
+          <div>
+            <Image
+              alt=""
+              src={whois01}
+              className="max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[23rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Para Você que Quer Iniciar um Negócio na Confeitaria
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Se você está sonhando em começar sua jornada no mundo da
+                confeitaria, o “Páscoa de Ouro” é o ponto de partida perfeito.
+                Este curso oferece a base que você precisa para iniciar seu
+                negócio, ensinando habilidades práticas e fornecendo insights
+                valiosos sobre o mercado de ovos de Páscoa artesanais.
+                Transforme sua paixão em um negócio lucrativo e dê o primeiro
+                passo para se tornar uma confeiteira de sucesso.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={whois02}
+              className="max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[23rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Para Você que Já é Confeiteira e Quer Faturar Alto na Páscoa
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Já tem experiência na confeitaria? o método “Páscoa de Ouro” é a
+                oportunidade de elevar seu negócio a novos patamares. Aprenda
+                técnicas exclusivas para criar ovos de Páscoa inovadores e
+                irresistíveis, e descubra estratégias para maximizar suas vendas
+                durante a temporada de Páscoa. Este curso é o impulso que você
+                precisa para se destacar no mercado e aumentar
+                significativamente seu faturamento.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              alt=""
+              src={whois03}
+              className="max-w-[240px] max-h-[240px] w-full h-full m-auto rounded-md mb-4"
+            />
+            <div className="max-w-[23rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Para Você que Quer faturar mais de 5 Mil Reais
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Se o seu objetivo é ganhar reconhecimento e alcançar um
+                faturamento expressivo com a confeitaria, o método “Páscoa de
+                Ouro” oferece as ferramentas e conhecimentos necessários. Com as
+                técnicas e estratégias abordadas no curso, você será capaz de
+                criar produtos de alto nível que atraem clientes e garantem um
+                retorno financeiro impressionante. Prepare-se para ser uma
+                confeiteira reconhecida e que fatura mais de 5 mil reais na
+                Páscoa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px] mt-10"
+        >
+          Esse curso é para mim! Quero me inscrever.
         </Link>
       </div>
     </div>
