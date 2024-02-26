@@ -348,52 +348,58 @@ const PascoaDeOuro = () => {
             <Image
               alt=""
               src={woman01}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              A Páscoa Acontece Todo Ano
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Assim como as festas de fim de ano, a Páscoa é uma data
-              comemorativa que ocorre anualmente. Isso significa uma
-              oportunidade de negócio recorrente e previsível todos os anos. Ao
-              aprender a fazer e vender ovos de Páscoa artesanais, você está
-              investindo em um negócio com demanda garantida a cada ano.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                A Páscoa Acontece Todo Ano
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Assim como as festas de fim de ano, a Páscoa é uma data
+                comemorativa que ocorre anualmente. Isso significa uma
+                oportunidade de negócio recorrente e previsível todos os anos.
+                Ao aprender a fazer e vender ovos de Páscoa artesanais, você
+                está investindo em um negócio com demanda garantida a cada ano.
+              </p>
+            </div>
           </div>
           <div>
             <Image
               alt=""
               src={woman02}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              Ovos de Páscoa: Uma Tradição inquebrável.
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Ovos de Páscoa são uma tradição querida e esperada por muitos. Não
-              é uma moda passageira, mas um hábito enraizado em nossa cultura.
-              Ao se especializar na produção de ovos de Páscoa, você se insere
-              em um mercado tradicional e estável, com clientes que retornam ano
-              após ano.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                Ovos de Páscoa: Uma Tradição inquebrável.
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Ovos de Páscoa são uma tradição querida e esperada por muitos.
+                Não é uma moda passageira, mas um hábito enraizado em nossa
+                cultura. Ao se especializar na produção de ovos de Páscoa, você
+                se insere em um mercado tradicional e estável, com clientes que
+                retornam ano após ano.
+              </p>
+            </div>
           </div>
           <div>
             <Image
               alt=""
               src={woman03}
-              className="md:max-w-[130px] max-w-[240px] max-h-[240px] md:max-h-[130px] w-full h-full m-auto rounded-md mb-4"
+              className=" max-w-[240px] max-h-[240px]  w-full h-full m-auto rounded-md mb-4"
             />
-            <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
-              O artesanal é cada vez mais valorizado
-            </span>
-            <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
-              Produtos artesanais, especialmente os comestíveis, têm uma
-              percepção de maior valor e qualidade em comparação com os
-              industrializados. Ao oferecer ovos de Páscoa artesanais, você não
-              apenas atende a uma demanda, mas também pode cobrar um preço
-              premium por produtos de qualidade superior.
-            </p>
+            <div className="max-w-[22rem] m-auto">
+              <span className="text-yellow200 font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px] mb-2 block">
+                O artesanal é cada vez mais valorizado
+              </span>
+              <p className="text-white font-poppins text-[18px] md:text-[16px] font-semibold leading-[30px]">
+                Produtos artesanais, especialmente os comestíveis, têm uma
+                percepção de maior valor e qualidade em comparação com os
+                industrializados. Ao oferecer ovos de Páscoa artesanais, você
+                não apenas atende a uma demanda, mas também pode cobrar um preço
+                premium por produtos de qualidade superior.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -589,7 +595,7 @@ const PascoaDeOuro = () => {
             <div className="w-full md:max-w-[260px] space-y-3 m-auto">
               <Image
                 alt=""
-                src={bonus07}
+                src={bonus10}
                 className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
               />
               <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
