@@ -24,6 +24,17 @@ import woman01 from "@/assets/pascoa-de-ouro/woman-01.webp";
 import woman02 from "@/assets/pascoa-de-ouro/woman-02.webp";
 import woman03 from "@/assets/pascoa-de-ouro/woman-03.webp";
 
+import bonus01 from "@/assets/pascoa-de-ouro/bonus-01.webp";
+import bonus02 from "@/assets/pascoa-de-ouro/bonus-02.webp";
+import bonus03 from "@/assets/pascoa-de-ouro/bonus-03.webp";
+import bonus04 from "@/assets/pascoa-de-ouro/bonus-04.webp";
+import bonus05 from "@/assets/pascoa-de-ouro/bonus-05.webp";
+import bonus06 from "@/assets/pascoa-de-ouro/bonus-06.webp";
+import bonus07 from "@/assets/pascoa-de-ouro/bonus-07.webp";
+import bonus08 from "@/assets/pascoa-de-ouro/bonus-08.webp";
+import bonus09 from "@/assets/pascoa-de-ouro/bonus-09.webp";
+import bonus10 from "@/assets/pascoa-de-ouro/bonus-10.webp";
+
 import suport from "@/assets/pascoa-de-ouro/suport.webp";
 
 const PascoaDeOuro = () => {
@@ -258,22 +269,22 @@ const PascoaDeOuro = () => {
           <Image
             alt=""
             src={depo01}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+            className="max-w-[345px] w-full h-full max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
           />
           <Image
             alt=""
             src={depo02}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+            className="max-w-[345px] w-full h-full max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
           />
           <Image
             alt=""
             src={depo03}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+            className="max-w-[345px] w-full h-full max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
           />
           <Image
             alt=""
             src={depo04}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
+            className="max-w-[345px] w-full h-full max-h-[345px] md:max-w-[260px] md:max-h-[xl0px] rounded-xl"
           />
         </div>
 
@@ -290,22 +301,22 @@ const PascoaDeOuro = () => {
           <Image
             alt=""
             src={depo05}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+            className="max-w-[345px] max-h-[345px] w-full h-full  md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
           />
           <Image
             alt=""
             src={depo06}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+            className="max-w-[345px] max-h-[345px] w-full h-full  md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
           />
           <Image
             alt=""
             src={depo07}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+            className="max-w-[345px] max-h-[345px] w-full h-full  md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
           />
           <Image
             alt=""
             src={depo08}
-            className="max-w-[345px] max-h-[345px] md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
+            className="max-w-[345px] max-h-[345px] w-full h-full  md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover"
           />
         </div>
 
@@ -394,25 +405,210 @@ const PascoaDeOuro = () => {
         </Link>
       </div>
 
+      <div className="bg-yellow200 block md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#8D3A1D"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
       <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
           Sua Jornada Será Acompanhada por 6 Meses
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <p className="text-brow900 text-[18px] md:text-[20px] font-semibold leading-[30px] max-w-[920px] w-full block mt-10 font-roboto m-auto">
+          <p className="text-brow900 text-[16px] md:text-[18px] font-semibold leading-[30px] max-w-[520px] w-full block mt-10 font-roboto m-auto">
             Sabemos que dúvidas e desafios podem surgir no caminho para o
             sucesso. Por isso, no curso “Páscoa de Ouro”, você não está sozinha.
             Oferecemos suporte exclusivo por 6 meses para garantir que todas as
             suas questões sejam respondidas e que você tenha a orientação
-            necessária para prosperar. Acompanhamento Personalizado: Durante
-            seis meses, nossa equipe estará à disposição para ajudar você a
-            superar qualquer obstáculo. Seja uma dúvida sobre receitas, técnicas
-            de decoração, estratégias de marketing ou gestão do seu negócio,
-            estamos aqui para ajudar.
+            necessária para prosperar.
+            <br />
+            <br />
+            <strong>Acompanhamento Personalizado:</strong> Durante seis meses,
+            nossa equipe estará à disposição para ajudar você a superar qualquer
+            obstáculo. Seja uma dúvida sobre receitas, técnicas de decoração,
+            estratégias de marketing ou gestão do seu negócio, estamos aqui para
+            ajudar.
           </p>
 
-          <Image alt="" src={suport} />
+          <Image
+            alt=""
+            src={suport}
+            className="max-w-[16rem] w-full m-auto md:max-w-[22rem]"
+          />
         </div>
+      </div>
+
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 md:pb-10">
+        <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
+          Transforme a Páscoa em uma Experiência Inesquecível com Estes Bônus
+          Exclusivos!
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[20px] gap-y-14">
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus01}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 1: Workshop "A melhor páscoa da sua vida" Gravado
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Tenha acesso às gravações completas do nosso workshop, e reviva as
+              aulas sempre que precisar.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus02}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 2: Barra de Chocolate Recheada
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Aprenda a fazer barras de chocolate recheadas que são verdadeiras
+              obras de arte e deliciosas!
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus03}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 3: Colomba Pascal Tradicional
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Descubra os segredos para criar a Colomba Pascal perfeita, um
+              clássico que nunca sai de moda.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus04}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 4: Coelho de Chocolate Recheado
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Encante seus clientes com coelhos de chocolate recheados, um item
+              que garante sorrisos e vendas.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus05}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 5: Corações de Chocolate Lapidados Cintilantes
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Surpreenda com corações de chocolate que brilham não só no sabor,
+              mas também na aparência.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus06}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 6: Esferas de Chocolate com Brilho
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Domine a arte de fazer esferas de chocolate que capturam olhares e
+              paladares com seu brilho único.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus07}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 7: Escultura de Chocolate
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Eleve seu nível com técnicas de escultura em chocolate,
+              adicionando um toque de sofisticação aos seus produtos.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus08}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 8: Bolo Caseirinho Especial de Páscoa
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Delicie-se com a receita exclusiva do Bolo Caseirinho, perfeito
+              para a época de Páscoa.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[260px] space-y-3">
+            <Image
+              alt=""
+              src={bonus09}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Bônus 09: Tags Personalizadas
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Receba designs exclusivos de tags para personalizar seus produtos
+              e torná-los ainda mais especiais.
+            </p>
+          </div>
+
+          <div className="md:col-span-3">
+            <div className="w-full md:max-w-[260px] space-y-3 m-auto">
+              <Image
+                alt=""
+                src={bonus07}
+                className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+              />
+              <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+                Bônus 10: Planilha de Precificação
+              </span>
+              <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+                Gerencie seu negócio com mais eficiência com uma planilha
+                desenvolvida para ajudar na precificação dos seus produtos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Toque aqui para se inscrever e garantir todos os bônus
+        </Link>
       </div>
     </div>
   );
