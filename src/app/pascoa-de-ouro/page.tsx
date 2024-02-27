@@ -39,6 +39,18 @@ import whois01 from "@/assets/pascoa-de-ouro/whois-01.webp";
 import whois02 from "@/assets/pascoa-de-ouro/whois-02.webp";
 import whois03 from "@/assets/pascoa-de-ouro/whois-03.webp";
 
+import journey01 from "@/assets/pascoa-de-ouro/journey-01.webp";
+import journey02 from "@/assets/pascoa-de-ouro/journey-02.webp";
+import journey03 from "@/assets/pascoa-de-ouro/journey-03.webp";
+import journey04 from "@/assets/pascoa-de-ouro/journey-04.webp";
+import journey05 from "@/assets/pascoa-de-ouro/journey-05.webp";
+import journey06 from "@/assets/pascoa-de-ouro/journey-06.webp";
+import journey07 from "@/assets/pascoa-de-ouro/journey-07.webp";
+
+import whydidi01 from "@/assets/pascoa-de-ouro/whydidi-01.webp";
+import whydidi02 from "@/assets/pascoa-de-ouro/whydidi-02.webp";
+import whydidi03 from "@/assets/pascoa-de-ouro/whydidi-03.webp";
+
 import suport from "@/assets/pascoa-de-ouro/suport.webp";
 import owner from "@/assets/pascoa-de-ouro/owner-01.webp";
 
@@ -454,7 +466,7 @@ const PascoaDeOuro = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 pb-10">
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 px-4 pb-10">
         <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
           Transforme a Páscoa em uma Experiência Inesquecível com Estes Bônus
           Exclusivos!
@@ -729,6 +741,202 @@ const PascoaDeOuro = () => {
         >
           Esse curso é para mim! Quero me inscrever.
         </Link>
+      </div>
+
+      <div className="bg-yellow200 flex items-center justify-center flex-col gap-10 text-center pt-10 px-4 pb-10">
+        <p className="text-brow900 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
+          Para quem é o método páscoa de ouro?
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[20px] gap-y-14">
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={journey01}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[28px] md:text-[18px] font-bold leading-[30px] mb-2 block">
+              1 - Fundamentos Essenciais:
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Você começará com o básico, entendendo os utensílios necessários e
+              os diferentes tipos de chocolate, estabelecendo uma sólida base
+              para sua jornada na confeitaria.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={journey02}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              2 - Produção de Alta Qualidade: ​
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Aprenda na prática o processo de temperagem do chocolate,
+              garantindo cascas de ovos perfeitas e brilhantes. Descubra
+              técnicas para fabricar cascas de forma rápida e produtiva,
+              incluindo métodos para colori-las de forma criativa e atraente.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={journey01}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              3 - Receitas e Decorações Inovadoras​
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Tenha acesso a uma variedade de receitas e decorações, com vários
+              modelos de ovos diferentes, que lhe permitirão construir um
+              cardápio diversificado e cativante.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-x-[20px] gap-y-14">
+          <div className="w-full md:max-w-[300px] space-y-3">
+            <Image
+              alt=""
+              src={journey04}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[210px] md:max-h-[210px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[28px] md:text-[18px] font-bold leading-[30px] mb-2 block">
+              4 - Recheios Tendência de 2024
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Fique por dentro dos recheios que serão tendência em 2024,
+              garantindo que seus produtos sejam não só deliciosos, mas também
+              modernos e procurados.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[300px] space-y-3">
+            <Image
+              alt=""
+              src={journey05}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[210px] md:max-h-[210px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              5 - Montagem Profissional
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Domine a arte da montagem dos ovos recheados e ovos trufados,
+              aprendendo a combinar sabores e texturas para criar ovos de Páscoa
+              irresistíveis.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[300px] space-y-3">
+            <Image
+              alt=""
+              src={journey06}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[210px] md:max-h-[210px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              6 - Precificação Inteligente
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Aprenda a precificar seus ovos de Páscoa de maneira estratégica,
+              garantindo um bom lucro e evitando prejuízos.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[300px] space-y-3">
+            <Image
+              alt=""
+              src={journey07}
+              className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[210px] md:max-h-[210px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              7 - Marketing e Vendas na internet:
+            </span>
+            <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Descubra como tirar fotos incríveis para suas redes sociais e como
+              executar estratégias de marketing eficientes para atrair uma
+              enxurrada de clientes nesta Páscoa.
+            </p>
+          </div>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Toque aqui para se inscrever e entrar nessa jornada!
+        </Link>
+      </div>
+
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 pb-10">
+        <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
+          Por que criei esse curso?
+        </p>
+
+        <p className="text-yellow200 font-poppins text-[18px] md:text-[20px] max-w-[1100px] w-full font-semibold leading-[30px]">
+          Para mim, Marrara Bortoloti, a confeitaria é muito mais do que um
+          ofício; é uma expressão de amor, criatividade e transformação. A razão
+          pela qual eu escolhi compartilhar meus conhecimentos através do curso
+          “Páscoa de Ouro” vai além da simples transmissão de técnicas.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[20px] gap-y-14">
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={whydidi01}
+              className="max-w-[280px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Compartilhando Paixão:
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Acredito firmemente que cada ovo de Páscoa que criamos é uma peça
+              de arte, uma representação da nossa paixão. Ao ensinar, estou
+              compartilhando essa paixão, inspirando outros a encontrar alegria
+              e satisfação na arte da confeitaria.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={whydidi02}
+              className="max-w-[280px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Empoderamento através do Conhecimento:
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Minha jornada começou com poucos recursos, mas muita determinação.
+              Ao ensinar as habilidades e técnicas que aprendi, meu objetivo é
+              empoderar outras pessoas, especialmente aquelas que sonham em
+              iniciar seus próprios negócios, mas talvez não saibam por onde
+              começar.
+            </p>
+          </div>
+
+          <div className="w-full md:max-w-[350px] space-y-3">
+            <Image
+              alt=""
+              src={whydidi03}
+              className="max-w-[280px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
+            />
+            <span className="text-yellow200 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
+              Criando Oportunidades
+            </span>
+            <p className="text-white font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
+              Cada aluno que se capacita com o curso “Páscoa de Ouro” tem a
+              chance de transformar sua vida. Seja como uma fonte de renda extra
+              ou como um caminho para um novo empreendimento, os conhecimentos
+              adquiridos abrem portas para oportunidades infinitas.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
