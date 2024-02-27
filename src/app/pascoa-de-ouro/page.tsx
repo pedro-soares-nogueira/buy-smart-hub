@@ -966,7 +966,8 @@ const PascoaDeOuro = () => {
               </p>
 
               <p className="text-yellow200 font-extrabold text-[30px]">
-                DE R$ 497,00 POR APENAS 12x R$ 19,19
+                DE <span className="line-through"> R$ 497,00 </span> POR APENAS
+                12x R$ 19,19
               </p>
 
               <p className="text-white text-[20px] font-bold">
@@ -975,9 +976,9 @@ const PascoaDeOuro = () => {
 
               <Link
                 href={"#"}
-                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-extrabold leading-[30px]"
               >
-                Toque aqui para se inscrever e entrar nessa jornada!
+                TOQUE AQUI PARA SE INSCREVER NO MÉTODO PÁSCOA DE OURO
               </Link>
             </div>
           </div>
@@ -999,7 +1000,8 @@ const PascoaDeOuro = () => {
               </p>
 
               <p className="text-yellow200 font-extrabold text-[30px]">
-                DE R$ 497,00 POR APENAS 12x R$ 19,19
+                DE <span className="line-through"> R$ 497,00 </span> POR APENAS
+                12x R$ 19,19
               </p>
 
               <p className="text-white text-[20px] font-bold">
@@ -1008,9 +1010,9 @@ const PascoaDeOuro = () => {
 
               <Link
                 href={"#"}
-                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-extrabold leading-[30px]"
               >
-                Toque aqui para se inscrever e entrar nessa jornada!
+                TOQUE AQUI PARA SE INSCREVER NO MÉTODO PÁSCOA DE OURO
               </Link>
             </div>
           </div>
