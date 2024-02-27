@@ -62,7 +62,7 @@ const PascoaDeOuro = () => {
   return (
     <div className="font-roboto">
       <div className="relative">
-        <div className="bg-gradient-to-t from-brow500 to-brow900 text-center gap-8 text-white flex items-center justify-center flex-col px-4 py-10">
+        <div className="bg-gradient-to-t from-brow500 to-brow900 text-center gap-8 text-white flex items-center justify-center flex-col px-4 pt-10 pb-0">
           <Image
             alt=""
             src={logo}
@@ -105,7 +105,17 @@ const PascoaDeOuro = () => {
         </div>
       </div>
 
-      <div className="bg-yellow200 text-center pt-[3rem] md:pt-10 pb-10 flex items-center justify-center flex-col px-4">
+      <div className="bg-yellow200">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#8D3A1D"
+            fill-opacity="1"
+            d="M0,288L120,250.7C240,213,480,139,720,144C960,149,1200,235,1320,277.3L1440,320L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="bg-yellow200 text-center pt-[1rem] pb-10 flex items-center justify-center flex-col px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full">
           Mais do que Apenas um Curso de Ovos de Páscoa
         </p>
@@ -470,6 +480,36 @@ const PascoaDeOuro = () => {
         </div>
       </div>
 
+      <div className="bg-brow900">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 590"
+          xmlns="http://www.w3.org/2000/svg"
+          className="transition duration-300 ease-in-out delay-150 block md:hidden"
+        >
+          <path
+            d="M 0,600 L 0,150 C 112.00956937799043,135.55023923444975 224.01913875598086,121.10047846889952 313,139 C 401.98086124401914,156.89952153110048 467.93301435406704,207.1483253588517 560,224 C 652.066985645933,240.8516746411483 770.2488038277513,224.30622009569376 880,191 C 989.7511961722487,157.69377990430624 1091.071770334928,107.62679425837321 1183,98 C 1274.928229665072,88.37320574162679 1357.4641148325359,119.1866028708134 1440,150 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#8D3A1D"
+            fillOpacity="0.53"
+            className="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 300)"
+          ></path>
+          <path
+            d="M 0,600 L 0,350 C 109.01435406698565,334.2105263157895 218.0287081339713,318.4210526315789 318,308 C 417.9712918660287,297.5789473684211 508.8995215311004,292.52631578947376 599,290 C 689.1004784688996,287.47368421052624 778.373205741627,287.4736842105263 868,293 C 957.626794258373,298.5263157894737 1047.6076555023922,309.57894736842104 1143,320 C 1238.3923444976078,330.42105263157896 1339.196172248804,340.2105263157895 1440,350 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#8D3A1D"
+            fillOpacity="1"
+            className="transition-all duration-300 ease-in-out delay-150 path-1"
+            transform="rotate(-180 720 300)"
+          ></path>
+        </svg>
+      </div>
+
       <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 px-4 pb-10">
         <p className="text-yellow200 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
           Transforme a Páscoa em uma Experiência Inesquecível com Estes Bônus
@@ -638,6 +678,16 @@ const PascoaDeOuro = () => {
         </Link>
       </div>
 
+      <div className="bg-yellow200">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#8D3A1D"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
       <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4">
         <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
           Conheça Marrara Bortoloti: Da Confeitaria Caseira à Referência
@@ -669,6 +719,16 @@ const PascoaDeOuro = () => {
             className="max-w-[22rem] rounded-md w-full m-auto md:max-w-[28rem]"
           />
         </div>
+      </div>
+
+      <div className="bg-brow900">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#FAC757"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
       </div>
 
       <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 pb-10">
@@ -749,7 +809,7 @@ const PascoaDeOuro = () => {
 
       <div className="bg-yellow200 flex items-center justify-center flex-col gap-10 text-center pt-10 px-4 pb-10">
         <p className="text-brow900 text-[22px] md:text-[30px] font-extrabold leading-[30px] max-w-[920px] w-full ">
-          Para quem é o método páscoa de ouro?
+          Veja como será sua jornada dentro do Método Páscoa de ouro:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[20px] gap-y-14">
@@ -759,7 +819,7 @@ const PascoaDeOuro = () => {
               src={journey01}
               className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[260px] md:max-h-[260px] rounded-xl object-cover m-auto"
             />
-            <span className="text-brow900 font-poppins text-[28px] md:text-[18px] font-bold leading-[30px] mb-2 block">
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
               1 - Fundamentos Essenciais:
             </span>
             <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
@@ -810,7 +870,7 @@ const PascoaDeOuro = () => {
               src={journey04}
               className="max-w-[345px] max-h-[260px] w-full h-full md:max-w-[210px] md:max-h-[210px] rounded-xl object-cover m-auto"
             />
-            <span className="text-brow900 font-poppins text-[28px] md:text-[18px] font-bold leading-[30px] mb-2 block">
+            <span className="text-brow900 font-poppins text-[20px] md:text-[18px] font-semibold leading-[30px] mb-2 block">
               4 - Recheios Tendência de 2024
             </span>
             <p className="text-brow500 font-poppins text-[16px] md:text-[16px] font-semibold leading-[30px]">
@@ -874,6 +934,36 @@ const PascoaDeOuro = () => {
         >
           Toque aqui para se inscrever e entrar nessa jornada!
         </Link>
+      </div>
+
+      <div className="bg-brow900">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 590"
+          xmlns="http://www.w3.org/2000/svg"
+          className="transition duration-300 ease-in-out delay-150 block md:hidden"
+        >
+          <path
+            d="M 0,600 L 0,150 C 112.00956937799043,135.55023923444975 224.01913875598086,121.10047846889952 313,139 C 401.98086124401914,156.89952153110048 467.93301435406704,207.1483253588517 560,224 C 652.066985645933,240.8516746411483 770.2488038277513,224.30622009569376 880,191 C 989.7511961722487,157.69377990430624 1091.071770334928,107.62679425837321 1183,98 C 1274.928229665072,88.37320574162679 1357.4641148325359,119.1866028708134 1440,150 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#FAC757"
+            fillOpacity="0.53"
+            className="transition-all duration-300 ease-in-out delay-150 path-0"
+            transform="rotate(-180 720 300)"
+          ></path>
+          <path
+            d="M 0,600 L 0,350 C 109.01435406698565,334.2105263157895 218.0287081339713,318.4210526315789 318,308 C 417.9712918660287,297.5789473684211 508.8995215311004,292.52631578947376 599,290 C 689.1004784688996,287.47368421052624 778.373205741627,287.4736842105263 868,293 C 957.626794258373,298.5263157894737 1047.6076555023922,309.57894736842104 1143,320 C 1238.3923444976078,330.42105263157896 1339.196172248804,340.2105263157895 1440,350 L 1440,600 L 0,600 Z"
+            stroke="none"
+            strokeWidth="0"
+            fill="#FAC757"
+            fillOpacity="1"
+            className="transition-all duration-300 ease-in-out delay-150 path-1"
+            transform="rotate(-180 720 300)"
+          ></path>
+        </svg>
       </div>
 
       <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col gap-10 text-center pt-10 pb-1 px-4 pb-10">
@@ -1019,6 +1109,16 @@ const PascoaDeOuro = () => {
         </div>
       </div>
 
+      <div className="bg-brow900">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#FAC757"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
       <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col text-center py-8 px-4">
         <p className="text-yellow200 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
           Satisfação Garantida ou Seu Investimento de Volta
@@ -1057,6 +1157,16 @@ const PascoaDeOuro = () => {
         >
           Quero testar por 7 dias sem riscos!
         </Link>
+      </div>
+
+      <div className="bg-yellow200">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#8D3A1D"
+            fillOpacity="1"
+            d="M0,96L20,96C40,96,80,96,120,122.7C160,149,200,203,240,229.3C280,256,320,256,360,213.3C400,171,440,85,480,80C520,75,560,149,600,149.3C640,149,680,75,720,90.7C760,107,800,213,840,261.3C880,309,920,299,960,245.3C1000,192,1040,96,1080,58.7C1120,21,1160,43,1200,58.7C1240,75,1280,85,1320,122.7C1360,160,1400,224,1420,256L1440,288L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"
+          ></path>
+        </svg>
       </div>
 
       <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4 space-y-8">
