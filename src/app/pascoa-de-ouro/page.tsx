@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import * as Accordion from "@radix-ui/react-accordion";
 
 import logo from "@/assets/pages-logos/icon-pascoa-ouro.png";
 import ovosDesk01 from "@/assets/pascoa-de-ouro/ovos-desk-01.webp";
@@ -52,6 +55,7 @@ import whydidi02 from "@/assets/pascoa-de-ouro/whydidi-02.webp";
 import whydidi03 from "@/assets/pascoa-de-ouro/whydidi-03.webp";
 
 import suport from "@/assets/pascoa-de-ouro/suport.webp";
+import garantia from "@/assets/pascoa-de-ouro/garantia.png";
 import owner from "@/assets/pascoa-de-ouro/owner-01.webp";
 
 const PascoaDeOuro = () => {
@@ -937,6 +941,445 @@ const PascoaDeOuro = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4 space-y-8">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          OFERTA ESPECIAL POR TEMPO LIMITADO!
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 md:mt-10 max-w-[1198px]">
+          <div className="bg-[#790A0A] rounded-lg p-4 flex flex-col items-center justify-center gap-4">
+            <Image
+              alt=""
+              src={logo}
+              className="max-w-[130px] max-h-[130px] h-full w-full m-auto"
+            />
+
+            <div className="flex flex-col items-center justify-center gap-4 ">
+              <p className="text-yellow200 font-extrabold text-[30px]">
+                ACESSO POR 1 ANO
+              </p>
+
+              <p className="text-white text-[20px] font-bold">
+                Com mais de 60% de desconto!
+              </p>
+
+              <p className="text-yellow200 font-extrabold text-[30px]">
+                DE R$ 497,00 POR APENAS 12x R$ 19,19
+              </p>
+
+              <p className="text-white text-[20px] font-bold">
+                OU R$ 197,00 À VISTA
+              </p>
+
+              <Link
+                href={"#"}
+                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+              >
+                Toque aqui para se inscrever e entrar nessa jornada!
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-[#790A0A] rounded-lg p-8 ">
+            <Image
+              alt=""
+              src={logo}
+              className="max-w-[130px] max-h-[130px] h-full w-full m-auto"
+            />
+
+            <div className="flex flex-col items-center justify-center gap-4 ">
+              <p className="text-yellow200 font-extrabold text-[30px]">
+                ACESSO POR 1 ANO
+              </p>
+
+              <p className="text-white text-[20px] font-bold">
+                Com mais de 60% de desconto!
+              </p>
+
+              <p className="text-yellow200 font-extrabold text-[30px]">
+                DE R$ 497,00 POR APENAS 12x R$ 19,19
+              </p>
+
+              <p className="text-white text-[20px] font-bold">
+                OU R$ 197,00 À VISTA
+              </p>
+
+              <Link
+                href={"#"}
+                className="bg-[#FF7600] text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+              >
+                Toque aqui para se inscrever e entrar nessa jornada!
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gradient-to-t from-brow500 via-brow900 to-brow900 flex items-center justify-center flex-col text-center py-8 px-4">
+        <p className="text-yellow200 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          Satisfação Garantida ou Seu Investimento de Volta
+        </p>
+
+        <p className="text-white my-10 font-poppins text-[18px] md:text-[20px] max-w-[1100px] w-full font-semibold leading-[30px]">
+          Entendemos que tomar a decisão de investir em um curso é importante e
+          queremos que você se sinta confiante ao se inscrever no “Páscoa de
+          Ouro”. É por isso que oferecemos uma garantia incondicional de
+          satisfação de 7 dias.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:mt-10">
+          <Image
+            alt=""
+            src={garantia}
+            className="max-w-[22rem] rounded-md w-full m-auto md:max-w-[28rem]"
+          />
+
+          <p className="text-yellow200 text-[16px] md:text-[18px] font-semibold leading-[30px] max-w-[520px] w-full block mt-10 font-roboto m-auto">
+            Se, por qualquer motivo, você não ficar totalmente satisfeito com o
+            curso nos primeiros 7 dias, nós reembolsaremos seu investimento
+            integralmente, sem questionamentos. Não há riscos envolvidos.
+            <br />
+            <br />
+            Queremos que você tenha a oportunidade de explorar o conteúdo,
+            participar das aulas, e verificar como o curso pode beneficiar você.
+            Se, após esse período inicial, você não sentir que o curso atende às
+            suas expectativas, basta nos informar e processaremos o reembolso.
+          </p>
+        </div>
+
+        <Link
+          href={"#"}
+          className="bg-green500 text-white rounded-3xl p-4 font-poppins text-[20px] md:text-[20px] font-semibold leading-[30px]"
+        >
+          Quero testar por 7 dias sem riscos!
+        </Link>
+      </div>
+
+      <div className="bg-yellow200 flex items-center justify-center flex-col text-center py-8 px-4 space-y-8">
+        <p className="text-brow900 text-[25px] md:text-[30px] font-bold leading-[35px] max-w-[720px] w-full font-poppins">
+          Dúvidas frequentes
+        </p>
+
+        <Accordion.Root type="single" className="max-w-[500px]">
+          {/* ITEM */}
+          <Accordion.Item
+            value="1"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Quanto tempo de acesso ao curso eu terei?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              Você terá acesso vitalício ao curso “Páscoa de Ouro”. Isso
+              significa que você pode aprender no seu próprio ritmo, revisitar
+              as aulas quantas vezes desejar e acessar o conteúdo sempre que
+              precisar. O conhecimento é seu para a vida toda.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="2"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Preciso de experiência prévia em confeitaria?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              Não é necessário ter experiência prévia em confeitaria para
+              participar do curso. O conteúdo é elaborado de forma a atender
+              tanto iniciantes quanto confeiteiros mais experientes. Você
+              começará com os fundamentos e progredirá para técnicas avançadas.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="3"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Os ingredientes são difíceis de encontrar?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              As receitas e técnicas ensinadas no curso utilizam ingredientes
+              comuns e acessíveis, que podem ser encontrados em supermercados
+              convencionais. Não se preocupe, você não precisará caçar
+              ingredientes raros.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="4"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Como o curso me ajuda a ganhar dinheiro?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              O curso “Páscoa de Ouro” vai além da confeitaria, abordando
+              aspectos de precificação, marketing e vendas. Você aprenderá a
+              transformar seu conhecimento em um negócio lucrativo, atraindo
+              clientes e maximizando seus lucros.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="5"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Qual é a garantia de que o curso funcionará para mim?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              Estamos tão confiantes na qualidade do curso que oferecemos uma
+              garantia de satisfação. Se, por algum motivo, você não ficar
+              satisfeito com o curso dentro dos primeiros 7 dias, nós
+              devolveremos seu investimento integralmente, sem questionamentos.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="6"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Como posso tirar dúvidas durante o curso?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              Durante o curso, você terá suporte completo. Você pode fazer
+              perguntas diretamente nas aulas ou utilizar nossos canais de
+              suporte para obter respostas às suas dúvidas. Estamos aqui para
+              ajudá-lo a ter sucesso.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="7"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Quanto tempo leva para concluir o curso?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              O curso “Páscoa de Ouro” é flexível e pode ser concluído no seu
+              próprio ritmo. O tempo de conclusão varia de pessoa para pessoa,
+              mas a maioria dos alunos pode concluir o curso em algumas semanas,
+              dedicando algumas horas por semana.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="8"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                O curso é apenas para ovos de Páscoa?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              Embora o curso se concentre em ovos de Páscoa, as habilidades e
+              técnicas que você aprenderá são transferíveis para outras áreas da
+              confeitaria. Você poderá aplicar seu conhecimento em uma variedade
+              de produtos doces, expandindo suas opções de negócios.
+            </Accordion.Content>
+          </Accordion.Item>
+
+          {/* ITEM */}
+          <Accordion.Item
+            value="9"
+            className="datadata-[state=open]:mb-8 mt-[-10px] w-full"
+          >
+            <Accordion.Header>
+              <Accordion.Trigger
+                className="flex w-full items-center justify-between gap-10 rounded border bg-yellow200 px-6 py-2 text-start 
+                          text-base font-semibold leading-snug text-brow900 data-[state=open]:border-yellow200 data-[state=closed]:border-yellow200 data-[state=open]:text-brow500"
+              >
+                Como posso ter certeza de que este curso é para mim?
+                <div className="p-3">
+                  <svg
+                    width="12"
+                    height="8"
+                    viewBox="0 0 12 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 7.96812L0 1.96812L1.4 0.568115L6 5.16812L10.6 0.568115L12 1.96812L6 7.96812Z"
+                      fill="#1C1B1F"
+                    />
+                  </svg>
+                </div>
+              </Accordion.Trigger>
+            </Accordion.Header>
+            <Accordion.Content className="inline-flex w-full items-center  text-start justify-start gap-2.5 rounded-bl rounded-br bg-transparent data-[state=open]:p-6">
+              O curso “Páscoa de Ouro” é para todos que desejam aprender
+              confeitaria de qualidade e transformar essa habilidade em um
+              negócio lucrativo. Se você tem paixão pela confeitaria e deseja
+              alcançar o sucesso na Páscoa, este curso é definitivamente para
+              você. Lembre-se, você tem a garantia de satisfação de 7 dias para
+              experimentar sem riscos.
+            </Accordion.Content>
+          </Accordion.Item>
+        </Accordion.Root>
       </div>
     </div>
   );
